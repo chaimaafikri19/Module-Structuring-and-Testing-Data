@@ -23,3 +23,12 @@ console.log(result);
 // e) What do you think the variable result represents? Can you think of a better name for this variable?
 
 // f) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer
+
+// a) There are 6 variables declared.
+// b) There is 1 function call: console.log(result).
+// c) % gives us the leftover seconds after dividing by 60 (24).
+// d) It removes the leftover seconds and gives us the total minutes (146).
+// e) result shows the movie length in hours, minutes and seconds.
+//    formattedMovieLength would be a clearer name.
+// f) It works with positive whole numbers, but it doesn't add zeros in front.
+//    It can also give strange results with decimal or negative numbers.
